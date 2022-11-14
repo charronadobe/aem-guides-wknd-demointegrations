@@ -1,21 +1,18 @@
- /* WKND Layout Container Footer Style */
-
+/* WKND Layout Container Footer Style */
 
 .cmp-layoutcontainer--footer {
- 
-    background-color: $black;
-    color: $gray-lighter;
+  background-color: $body-bg;
+  color: $gray-lighter;
 
-    /* Style Text Component */
-    .cmp-text {
-
-        p {
-            line-height: 1.25;
-        }
-
-        a {
-            color: $gray-lighter;
-            text-decoration: underline;
-        }
+  /* Style Text Component */
+  .cmp-text {
+    p {
+      line-height: 1.25;
     }
+
+    a {
+      color: $gray-lighter;
+      text-decoration: underline;
+    }
+  }
 }
