@@ -50,6 +50,14 @@
   }
 }
 
+// button navy variation
+.cmp-button--navy {
+  .cmp-button {
+    background-color: $navy;
+    color: $text-color-inverse;
+  }
+}
+
 // button green variation
 .cmp-button--green {
   .cmp-button {

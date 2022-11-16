@@ -25,17 +25,18 @@ $gray-lighter: #f7f7f7;
 $white: #ffffff;
 
 $yellow: #ffea00;
-$blue: #0045ff;
+$blue: #3d96f7;
 $red: #ff0000;
 $green: #00520094;
 $pink: #ff0058;
 $crimson: #c2002f;
-$navy: #0c2340;
+$navy: #1000c9;
 
 //custom colour for brand lines
 $brand-accent: #145393;
 
-$brand-primary: var(--brandPrimary, $yellow);
+//$brand-primary: var(--brandPrimary, $yellow);
+$brand-primary: var(--brandPrimary, $blue);
 
 //== Layout
 $gutter-padding: 14px;
@@ -57,7 +58,8 @@ $body-bg: var(--bodyBackground, $white);
 $text-color: var(--textColor, $black);
 $text-color-inverse: var(--textColorInverse, $gray-light);
 
-$brand-secondary: var(--brandSecondary, $black);
+//$brand-secondary: var(--brandSecondary, $black);
+$brand-secondary: var(--brandSecondary, $navy);
 
 $brand-third: var(--brandThird, $gray-light);
 
