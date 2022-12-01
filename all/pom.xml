@@ -55,6 +55,13 @@
                     <!-- skip sub package validation for now as some vendor packages like CIF apps will not pass -->
                     <skipSubPackageValidation>true</skipSubPackageValidation>
                     <embeddeds>
+                        <!-- Veeva Connector -->
+                        <embedded>
+                            <groupId>com.adobe.acs.aemveeva</groupId>
+                            <artifactId>aem-veeva-connector</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/application/install</target>
+                        </embedded>
                         <!-- Workfront Enhanced Connector -->
                         <embedded>
                             <groupId>digital.hoodoo</groupId>
@@ -297,6 +304,14 @@
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>
+        <!-- Veeva Connector -->
+        <dependency>
+            <groupId>com.adobe.acs.aemveeva</groupId>
+            <artifactId>aem-veeva-connector</artifactId>
+            <type>zip</type>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../ui.apps/src/main/resources/aem-veeva-connector.all-1.0.0-SNAPSHOT.zip</systemPath>
+        </dependency>
         <!-- Workfront Enhanced Connector -->
         <dependency>
             <groupId>digital.hoodoo</groupId>
