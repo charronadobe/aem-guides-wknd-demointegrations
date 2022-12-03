@@ -732,23 +732,23 @@ Bundle-DocURL:
                 <scope>provided</scope>
             </dependency>
             <!-- Veeva Connector -->
-            <dependency>
+            <!-- <dependency>
                 <groupId>com.adobe.acs.aemveeva</groupId>
                 <artifactId>aem-veeva-connector</artifactId>
                 <type>zip</type>
                 <version>2.2.0-SNAPSHOT</version>
                 <scope>system</scope>
                 <systemPath>${project.basedir}/ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
-            </dependency>
+            </dependency> -->
             <!-- Workfront Enhanced Connector -->
-            <dependency>
+            <!-- <dependency>
                 <groupId>digital.hoodoo</groupId>
                 <artifactId>workfront-tools.ui.apps</artifactId>
                 <type>zip</type>
                 <version>1.9.5</version>
                 <scope>system</scope>
                 <systemPath>${project.basedir}/ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
-            </dependency>
+            </dependency> -->
              <!-- AEM Core Components -->
             <dependency>
                 <groupId>com.adobe.cq</groupId>
