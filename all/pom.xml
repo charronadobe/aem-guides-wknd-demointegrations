@@ -63,21 +63,21 @@
                             <target>/apps/wknd-vendor-packages/application/install</target>
                         </embedded>
                         <!-- Workfront Enhanced Connector -->
-                        <!-- <embedded>
+                        <embedded>
                             <groupId>digital.hoodoo</groupId>
                             <artifactId>workfront-tools.ui.apps</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-vendor-packages/application/install</target>
-                        </embedded> -->
+                        </embedded>
                         <!-- ACS Commons -->
-                        <!-- <embedded>
+                        <embedded>
                             <groupId>com.adobe.acs</groupId>
                             <artifactId>acs-aem-commons-content</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-packages/container/install</target>
                             <filter>true</filter>
                             <isAllVersionsFilter>true</isAllVersionsFilter>
-                        </embedded> -->
+                        </embedded>
                         <!-- MySQL JDBC Connector -->
                         <embedded>
                             <groupId>mysql</groupId>
@@ -305,29 +305,29 @@
     <!-- ====================================================================== -->
     <dependencies>
         <!-- Veeva Connector -->
-        <!-- <dependency>
+        <dependency>
             <groupId>com.adobe.acs.aemveeva</groupId>
             <artifactId>aem-veeva-connector</artifactId>
             <type>zip</type>
             <scope>system</scope>
             <systemPath>${project.basedir}/../ui.apps/src/main/resources/aem-veeva-connector.all-1.0.0-SNAPSHOT.zip</systemPath>
-        </dependency> -->
+        </dependency>
         <!-- Workfront Enhanced Connector -->
-        <!-- <dependency>
+        <dependency>
             <groupId>digital.hoodoo</groupId>
             <artifactId>workfront-tools.ui.apps</artifactId>
             <type>zip</type>
             <scope>system</scope>
             <systemPath>${project.basedir}/../ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
-        </dependency> -->
+        </dependency>
         <!-- ACS Commons -->
-        <!-- <dependency>
+        <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-content</artifactId>
             <version>5.3.2</version>
             <type>zip</type>
-        </dependency> -->
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        </dependency>
+        <!-- MySQL from https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
