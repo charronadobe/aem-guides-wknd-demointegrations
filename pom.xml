@@ -738,7 +738,7 @@ Bundle-DocURL:
                 <type>zip</type>
                 <version>2.2.0-SNAPSHOT</version>
                 <scope>system</scope>
-                <systemPath>${project.basedir}/ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
+                <systemPath>${project.basedir}/ui.apps/src/main/resources/aem-veeva-connector.all-1.0.0-SNAPSHOT.zip</systemPath>
             </dependency>
             <!-- Workfront Enhanced Connector -->
             <dependency>
