@@ -1,0 +1,48 @@
+/* Light */
+.cmp-text--white {
+  .cmp-text__text {
+    color: $text-color-inverse;
+  }
+}
+
+/* Gray */
+.cmp-text--gray {
+  .cmp-text__text {
+    color: $gray;
+  }
+}
+
+/* Black */
+.cmp-text--black {
+  .cmp-text__text {
+    color: $black;
+  }
+}
+
+/* Blue */
+.cmp-text--blue {
+  .cmp-text__text {
+    color: $blue;
+  }
+}
+
+/* Navy */
+.cmp-text--navy {
+  .cmp-text__text {
+    color: $navy;
+  }
+}
+
+/* Crimson */
+.cmp-text--crimson {
+  .cmp-text__text {
+    color: $crimson;
+  }
+}
+
+/* Brand Accent */
+.cmp-text--accent {
+  .cmp-text__text {
+    color: $brand-accent;
+  }
+}
