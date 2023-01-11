@@ -31,12 +31,14 @@ $green: #00520094;
 $pink: #ff0058;
 $crimson: #c2002f;
 $navy: #1000c9;
+$tdgreen: #008a00;
+$tddark: #12412a;
 
 //custom colour for brand lines
-$brand-accent: #145393;
+$brand-accent: $tdgreen;
 
 //$brand-primary: var(--brandPrimary, $yellow);
-$brand-primary: var(--brandPrimary, $blue);
+$brand-primary: var(--brandPrimary, $tdgreen);
 
 //== Layout
 $gutter-padding: 14px;
@@ -59,7 +61,7 @@ $text-color: var(--textColor, $black);
 $text-color-inverse: var(--textColorInverse, $gray-light);
 
 //$brand-secondary: var(--brandSecondary, $black);
-$brand-secondary: var(--brandSecondary, $navy);
+$brand-secondary: var(--brandSecondary, $tddark);
 
 $brand-third: var(--brandThird, $gray-light);
 
