@@ -14,7 +14,7 @@
 }
 
 .cmp-navigation__item-link {
-  color: $text-color;
+  color: $white;
   font-size: $font-size-small;
   text-transform: uppercase;
   padding: 15px 17px;
@@ -22,6 +22,7 @@
 
   &:hover,
   &:focus {
+    color: $text-color;
     background-color: $brand-primary;
   }
 }
