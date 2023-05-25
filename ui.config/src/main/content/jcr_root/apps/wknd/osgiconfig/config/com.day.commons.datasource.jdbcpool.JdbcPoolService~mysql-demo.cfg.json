@@ -2,6 +2,6 @@
   "datasource.name": "mysql-demo",
   "jdbc.driver.class": "com.mysql.jdbc.Driver",
   "jdbc.connection.uri": "jdbc:mysql://$[env:AEM_PROXY_HOST;default=proxy.tunnel]:30001/demo",
-  "jdbc.username": "$[env:MYSQL_USERNAME;default=mysql-user]",
+  "jdbc.username": "$[env:MYSQL_USERNAME;default=root]",
   "jdbc.password": "$[secret:MYSQL_PASSWORD]"
 }
