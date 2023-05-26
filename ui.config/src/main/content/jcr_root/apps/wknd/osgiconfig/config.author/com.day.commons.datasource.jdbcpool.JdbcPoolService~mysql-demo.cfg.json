@@ -1,0 +1,8 @@
+{
+  "datasource.name": "mysql-demo",
+  "jdbc.driver.class": "com.mysql.jdbc.Driver",
+  "jdbc.connection.uri": "jdbc:mysql://localhost:3306/demo",
+  "jdbc.username": "$[env:MYSQL_USERNAME;default=root]",
+  "jdbc.password": "$[secret:MYSQL_PASSWORD]",
+  "jdbc.validation.query": "SELECT 1"
+}
