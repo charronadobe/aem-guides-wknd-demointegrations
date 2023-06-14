@@ -12,7 +12,7 @@ import org.osgi.service.metatype.annotations.AttributeDefinition;
 public @interface AssetAPIServiceConfig {
 
     @AttributeDefinition(name = "Sign Endpoint", description = "Adobe Sign API Endpoint")
-    String urlAEMCS() default "https://author-p102861-e970602.adobeaemcloud.com";
+    String urlAEMCS() default "https://author-p28504-e102472.adobeaemcloud.com/";
 
     @AttributeDefinition(name = "Truststore User Name", description = "User who's truststore contains key")
     String apiUser() default "uofphoenix";
