@@ -38,12 +38,13 @@ $gedark: #0a6fd8;
 $abbott: #3773ba;
 $abbottdark: #0a6fd8;
 $gmf: #005eaa;
+$sobeys: #015535;
 
 //custom colour for brand lines
-$brand-accent: $gmf;
+$brand-accent: $sobeys;
 
 //$brand-primary: var(--brandPrimary, $yellow);
-$brand-primary: var(--brandPrimary, $gmf);
+$brand-primary: var(--brandPrimary, $sobeys);
 
 //== Layout
 $gutter-padding: 14px;
@@ -66,7 +67,7 @@ $text-color: var(--textColor, $black);
 $text-color-inverse: var(--textColorInverse, $gray-light);
 
 //$brand-secondary: var(--brandSecondary, $black);
-$brand-secondary: var(--brandSecondary, $gmf);
+$brand-secondary: var(--brandSecondary, $sobeys);
 
 $brand-third: var(--brandThird, $gray-light);
 
