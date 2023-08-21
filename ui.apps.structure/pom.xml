@@ -46,6 +46,8 @@
 
                         <!-- Immutable context-aware configurations -->
                         <filter><root>/apps/settings</root></filter>
+                        <filter><root>/apps/settings/wcm</root></filter>
+                        <filter><root>/apps/settings/wcm/designs</root></filter>
 
                     </filters>
                 </configuration>
