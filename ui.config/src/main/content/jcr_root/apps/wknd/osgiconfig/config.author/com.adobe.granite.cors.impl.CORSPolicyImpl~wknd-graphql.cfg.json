@@ -1,11 +1,11 @@
 {
-  "supportscredentials": true,
-  "exposedheaders": [""],
-  "supportedmethods": ["GET", "HEAD", "POST"],
   "alloworigin": [""],
-  "maxage:Integer": 1800,
   "alloworiginregexp": ["http://localhost:.*"],
-  "allowedpaths": ["/content/_cq_graphql/wknd-shared/endpoint.json", "/graphql/execute.json.*"],
+  "allowedpaths": [
+    "/graphql/execute.json.*",
+    "/content/_cq_graphql/wknd-shared/endpoint.json",
+    "/content/experience-fragments/.*"
+  ],
   "supportedheaders": [
     "Origin",
     "Accept",
@@ -13,6 +13,10 @@
     "Content-Type",
     "Access-Control-Request-Method",
     "Access-Control-Request-Headers",
-    "authorization"
-  ]
+    "Authorization"
+  ],
+  "supportedmethods": ["GET", "HEAD", "POST"],
+  "maxage:Integer": 1800,
+  "supportscredentials": true,
+  "exposedheaders": [""]
 }

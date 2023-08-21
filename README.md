@@ -1,5 +1,16 @@
 # AEM WKND Sites Project
 
+## Adobe Experience Manager compatibility
+
+WKND versions are compatible with the following versions of Adobe Experience Manager:
+
+| AEM version | WKND version |
+|:------------|:------------------------------:|
+| AEM as a Cloud Service | 3.x                 |
+| 6.5 SP16    | 2.x, 3.x                       |
+
+## Released artifacts
+
 ![Maven CI](https://github.com/adobe/aem-guides-wknd/actions/workflows/maven.yml/badge.svg)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.adobe.aem.guides/aem-guides-wknd/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.adobe.aem.guides/aem-guides-wknd)
 
@@ -25,7 +36,7 @@ To deploy WKND to AEM as a Cloud Service, this project's source code must be dep
 2. Push the `main` branch to your Cloud Manager's Git repository
 3. Ensure a deployment pipline is configured to deploy the target branch/repo to the desired AEM as a Cloud Service env
 4. Run the Cloud Manager pipeline
-5. WKND will not be deployed to the target AEM as a Cloud Service environment
+5. WKND will now be deployed to the target AEM as a Cloud Service environment
 
 ### Local development (AEM 6.5 or AEM SDK)
 
@@ -33,9 +44,6 @@ Pre-compiled AEM packages are available under the latest release for easy instal
 
 * [`aem-guides-wknd.all-x.x.x.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM as a Cloud Service, default build
 * [`aem-guides-wknd.all-x.x.x-classic.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM 6.5.x+
-
-
-
 
 ## How to build
 
