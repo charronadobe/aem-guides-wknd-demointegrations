@@ -39,12 +39,13 @@ $abbott: #3773ba;
 $abbottdark: #0a6fd8;
 $gmf: #005eaa;
 $sobeys: #015535;
+$hyundai: #002c5f;
 
 //custom colour for brand lines
-$brand-accent: $sobeys;
+$brand-accent: $hyundai;
 
 //$brand-primary: var(--brandPrimary, $yellow);
-$brand-primary: var(--brandPrimary, $sobeys);
+$brand-primary: var(--brandPrimary, $hyundai);
 
 //== Layout
 $gutter-padding: 14px;
@@ -67,7 +68,7 @@ $text-color: var(--textColor, $black);
 $text-color-inverse: var(--textColorInverse, $gray-light);
 
 //$brand-secondary: var(--brandSecondary, $black);
-$brand-secondary: var(--brandSecondary, $sobeys);
+$brand-secondary: var(--brandSecondary, $hyundai);
 
 $brand-third: var(--brandThird, $gray-light);
 
