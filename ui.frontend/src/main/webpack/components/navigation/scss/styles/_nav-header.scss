@@ -28,6 +28,7 @@
 
   /* only highlight level 1 */
   .cmp-navigation__item--level-1.cmp-navigation__item--active .cmp-navigation__item-link {
+    color: $gray-light;
     background-color: $brand-primary;
   }
 
