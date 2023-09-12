@@ -5,4 +5,5 @@
     <filter root="/apps/wknd/i18n"/>
     <filter root="/apps/msm/wknd_blueprint" mode="merge"/>
     <filter root="/apps/settings/wcm/designs/wknd"/>
+    <filter root="/apps/wknd-extended"/>
 </workspaceFilter>
