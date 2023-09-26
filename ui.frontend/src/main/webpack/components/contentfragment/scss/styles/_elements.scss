@@ -24,9 +24,15 @@
                 padding-top: 1em;
             }
 */
+    .cmp-contentfragment__element-title {
+      display: none;
+    }
 
     .cmp-contentfragment__element-value {
-      dispay: none;
+      padding-top: 0.5em;
+      font-weight: $font-weight-bold;
+      font-size: $font-size-small;
+      margin-inline-start: 0px;
     }
 
     //mobile
