@@ -17,15 +17,11 @@
       float: left;
       width: 100%;
     }
-    /*    
-            .cmp-contentfragment__element-title {
-                color: $gray;
-                font-size: $font-size-xsmall;
-                padding-top: 1em;
-            }
-*/
+
     .cmp-contentfragment__element-title {
-      display: none;
+      color: $gray;
+      font-size: $font-size-xsmall;
+      padding-top: 1em;
     }
 
     .cmp-contentfragment__element-value {
