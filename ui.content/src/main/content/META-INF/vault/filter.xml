@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/wknd" mode="update"/>
+    <filter root="/conf/wknd" mode="merge"/>
     <filter root="/content/wknd" mode="merge"/>
-    <!--I added this one-->
-    <!-- <filter root="/content/wknd/language-masters/en/trymeout"/> -->
-    <!---->
     <filter root="/content/dam/wknd" mode="merge"/>
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
 </workspaceFilter>

@@ -9,11 +9,4 @@
         jcr:primaryType="nt:unstructured"
         clientId="28b07c6be4d544f188dc2f36e33b196b"
         reportSuiteId=""/>
-    <com.adobe.aem.guides.wknd.core.config.CardCAConfig
-        jcr:primaryType="nt:unstructured"
-        clientId="28b07c6be4d544f188dc2f36e33b196b"
-        siteAdmin="Digital Marketing"
-        siteCountry="Canada"
-        siteLocale="Alberta"
-        siteSection="SUVs"/>
 </jcr:root>
