@@ -61,8 +61,8 @@
                         </jackrabbit-nodetypes>
                         <jackrabbit-filter>
                             <options>
-                            <!-- I added /content/wknd,/content/wknd/language-masters,/content/wknd/language-masters/en -->
-                                <validRoots>/conf,/content,/content/wknd,/content/wknd/language-masters,/content/wknd/language-masters/en,/content/experience-fragments,/content/dam,/content/cq:tags</validRoots>
+                            <!-- Here I would add /content/wknd,/content/wknd/language-masters,/content/wknd/language-masters/en -->
+                                <validRoots>/conf,/content,/content/experience-fragments,/content/dam,/content/cq:tags</validRoots>
                             </options>
                         </jackrabbit-filter>
                     </validatorsSettings>
