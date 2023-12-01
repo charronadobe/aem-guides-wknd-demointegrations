@@ -56,12 +56,12 @@
                     <skipSubPackageValidation>true</skipSubPackageValidation>
                     <embeddeds>
                         <!-- Veeva Connector -->
-                        <embedded>
+                        <!-- <embedded>
                             <groupId>com.adobe.acs.aemveeva</groupId>
                             <artifactId>aem-veeva-connector</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-vendor-packages/application/install</target>
-                        </embedded>
+                        </embedded> -->
                         <!-- Workfront Enhanced Connector -->
                         <embedded>
                             <groupId>digital.hoodoo</groupId>
@@ -319,13 +319,13 @@
     <!-- ====================================================================== -->
     <dependencies>
         <!-- Veeva Connector -->
-        <dependency>
+        <!-- <dependency>
             <groupId>com.adobe.acs.aemveeva</groupId>
             <artifactId>aem-veeva-connector</artifactId>
             <type>zip</type>
             <scope>system</scope>
             <systemPath>${project.basedir}/../ui.apps/src/main/resources/aem-veeva-connector.all-1.0.0-SNAPSHOT.zip</systemPath>
-        </dependency>
+        </dependency> -->
         <!-- Workfront Enhanced Connector -->
         <dependency>
             <groupId>digital.hoodoo</groupId>
