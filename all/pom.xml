@@ -70,14 +70,14 @@
                             <target>/apps/wknd-vendor-packages/application/install</target>
                         </embedded>
                         <!-- ACS Commons -->
-                        <!-- <embedded>
+                        <embedded>
                             <groupId>com.adobe.acs</groupId>
                             <artifactId>acs-aem-commons-content</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-packages/container/install</target>
                             <filter>true</filter>
                             <isAllVersionsFilter>true</isAllVersionsFilter>
-                        </embedded> -->
+                        </embedded>
                         <!-- MySQL JDBC Connector -->
                         <embedded>
                             <groupId>mysql</groupId>
@@ -283,14 +283,14 @@
                                     <target>/apps/wknd-vendor-packages/application/install</target>
                                 </embedded>
                                 <!-- ACS Commons Embedded for 6.5.x -->
-                                <!-- <embedded>
+                                <embedded>
                                     <groupId>com.adobe.acs</groupId>
                                     <artifactId>acs-aem-commons-content</artifactId>
                                     <type>zip</type>
                                     <target>/apps/wknd-packages/application/install</target>
                                     <filter>true</filter>
                                     <isAllVersionsFilter>true</isAllVersionsFilter>
-                                </embedded> -->
+                                </embedded>
                                 <embedded>
                                     <groupId>com.adobe.aem.guides</groupId>
                                     <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
@@ -335,12 +335,12 @@
             <systemPath>${project.basedir}/../ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
         </dependency>
         <!-- ACS Commons -->
-        <!-- <dependency>
+        <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-content</artifactId>
-            <version>6.3.2</version>
+            <version>5.3.2</version>
             <type>zip</type>
-        </dependency> -->
+        </dependency>
         <!-- MySQL from https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>

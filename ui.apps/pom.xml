@@ -143,11 +143,11 @@
             <scope>provided</scope>
         </dependency>
         <!-- For ACS Commons Java APIs -->
-        <!-- <dependency>
+        <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-bundle</artifactId>
-            <version>6.3.2</version>
+            <version>5.3.2</version>
             <scope>provided</scope>
-        </dependency> -->
+        </dependency>
     </dependencies>
 </project>
