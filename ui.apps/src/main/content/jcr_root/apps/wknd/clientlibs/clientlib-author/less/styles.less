@@ -1,0 +1,25 @@
+#OverlayWrapper [data-type="Editable"].cq-Overlay {
+  &.status--none {
+    border: solid 2px grey;
+
+    .cq-Overlay--component-name {
+      background-color: grey;
+    }
+  }
+
+  &.status--approved {
+    border: solid 2px green;
+
+    .cq-Overlay--component-name {
+      background-color: green;
+    }
+  }
+
+  &.status--unapproved {
+    border: solid 2px red;
+
+    .cq-Overlay--component-name {
+      background-color: red;
+    }
+  }
+}
