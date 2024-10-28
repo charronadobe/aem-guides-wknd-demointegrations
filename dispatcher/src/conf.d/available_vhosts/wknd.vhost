@@ -46,6 +46,10 @@ Include conf.d/variables/custom.vars
         ################## BEGIN EDITABLE SECTION: Adapt regex to match CORS origin(s) for applications
 
         ################## The following provide access from common developer platforms, to accelerate AEM Headless access to WKND content.
+        # All unsecure
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://.*$)#" CORSTrusted=true
+        # All secure
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*$)#" CORSTrusted=true          
         # Developer Localhost
         SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
         # Adobe AppBuilder
