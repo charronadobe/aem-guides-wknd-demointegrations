@@ -26,14 +26,13 @@ ontent.length'CONTENT
         data-sly-use.tpl="core/wcm/components/contentfragment/v1/contentfragment/calendar.html"
         data-sly-call="${tpl.element @ date = element.value}"
       ></sly>
-
       <sly data-sly-test="${element.dataType == 'boolean'}"
-        >${element.value ? "true" : "false"}</sly
-      >
+        >${element.value ? "true" : "false"}
+      </sly>
       <sly data-sly-use.media="${'js/content.js' @content=element.value}" />
-      <sly data-sly-test="${element.dataType != 'calendar' && element.dataType != 'boolean'}"
-        >${(media) @join='<br />', context='html'}</sly
-      >
+      <sly data-sly-test="${element.dataType != 'calendar' && element.dataType != 'boolean'}">
+        ${(media) @join='<br />', context='html'}
+      </sly>
     </dd>
   </div>
 </template>
