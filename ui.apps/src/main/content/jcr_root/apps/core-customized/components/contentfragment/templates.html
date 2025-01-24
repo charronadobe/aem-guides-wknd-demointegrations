@@ -30,10 +30,7 @@
       <p class="cmp-contentfragment__description">${fragment.description}</p>
     </sly>
     <!-- begin testing code: **THIS IS WHERE YOU NEED TO START, THE CONFRAG PATH IS HERE... HOW DO YOU GRAB THE SUBPATH AND PROCESS IT?** -->
-    <!--/* <h1>
-      isEmpty evaluates to ${!properties.fragmentPath} because it has the value
-      ${properties.fragmentPath}
-    </h1> */-->
+    <h1>properties.fragmentPath has the value ${properties.fragmentPath}</h1>
     <!-- <h1>fragment.element.size is ${fragment.elements.size}</h1> -->
     <!-- end testing code -->
     <sly
@@ -48,11 +45,12 @@
 </template>
 
 <!-- This template should not be used/called by the content fragment list component -->
+<!-- This is the template that fires when the Config is set to 'Single Text Element' and an element is selected -->
 <template data-sly-template.paragraphs="${@ fragment='The content fragment'}">
   <div class="cmp-contentfragment__elements">
-    <!-- begin trace for ata-sly-template.paragraphs -->
-    <!--/* <p>Templates (no Image list) before paragraph call</p> */-->
-    <!-- end begin trace for ata-sly-template.paragraphs -->
+    <!-- begin trace for elementTemplate.element -->
+    <!--/* <p>'paragraphs' template, used for Single Text Element config</p> */-->
+    <!-- end trace for elementTemplate.element -->
     <div data-sly-resource="${'par0' @ resourceType=fragment.gridResourceType}"></div>
     <div data-sly-list="${fragment.paragraphs}">
       ${item @ context="html"}
@@ -60,12 +58,10 @@
         data-sly-resource="${'par{0}' @ format=itemList.count, resourceType=fragment.gridResourceType}"
       ></div>
     </div>
-    <!-- stop trace for ata-sly-template.paragraphs -->
-    <!--/* <p>Templates (no Image list) AFTER paragraph call</p> */-->
-    <!-- end stop trace for ata-sly-template.paragraphs -->
   </div>
 </template>
 
+<!-- This is the template that fires when the Config is set to 'Multiple Elements' and at least one element is added -->
 <template data-sly-template.elements="${@ fragment='The content fragment', wcmmode='WCM mode'}">
   <dl
     class="cmp-contentfragment__elements${!wcmmode.disabled ? ' cq-dd-contentfragment' : ''}"
@@ -73,15 +69,15 @@
     data-sly-use.elementTemplate="element.html"
   >
     <!-- begin trace for elementTemplate.element -->
-    <!--/* <p>templates, before element call</p> */-->
+    <!--/* <p>'elements' template, used for Multiple Element config</p> */-->
     <!-- end trace for elementTemplate.element -->
     <sly data-sly-call="${elementTemplate.element @ element=element}"></sly>
   </dl>
-  <!-- begin trace for elementTemplate.element -->
-  <!--/* <p>templates, AFTER element call</p> */-->
-  <!-- end trace for elementTemplate.element -->
 </template>
+<!-- The following code sets placeholder text when there is no content supplied in the config dialogue. -->
 <!-- I copied this from ./libs/core/wcm/components/contentfragment/v1/contentfragment/templates.html -->
+<!-- When I copied the code above from ./libs/core/wcm/components/contentfragment/v1/contentfragment/templates.html I was able to override its settings -->
+<!-- Else, nothing was called, except the values from .content.xml (not sure why the settings in that file were still called) -->
 <sly data-sly-template.placeholder="${@ isEmpty, classAppend, emptyTextAppend}">
   <div
     data-sly-test="${(wcmmode.edit || wcmmode.preview) && isEmpty}"
@@ -89,5 +85,3 @@
     data-emptytext="${component.properties.jcr:title} - Empty"
   ></div>
 </sly>
-<!-- When I copied the code above from ./libs/core/wcm/components/contentfragment/v1/contentfragment/templates.html I was able to override its settings -->
-<!-- Else, nothing was called, except the values from .content.xml (not sure why the settings in that file were still called) -->

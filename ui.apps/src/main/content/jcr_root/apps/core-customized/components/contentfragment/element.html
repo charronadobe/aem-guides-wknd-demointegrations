@@ -29,8 +29,15 @@ ontent.length'CONTENT
       <sly data-sly-test="${element.dataType == 'boolean'}"
         >${element.value ? "true" : "false"}
       </sly>
+      <!--/* Process Content Fragment element */-->
+      <sly data-sly-test="${element.dataType == 'content-fragment'}">
+        <h1>Type: ${element.dataType}</h1>
+      </sly>
+      <!--/* End Process Content Fragment element */-->
       <sly data-sly-use.media="${'js/content.js' @content=element.value}" />
-      <sly data-sly-test="${element.dataType != 'calendar' && element.dataType != 'boolean'}">
+      <sly
+        data-sly-test="${element.dataType != 'calendar' && element.dataType != 'boolean' && element.dataType != 'content-fragment'}"
+      >
         ${(media) @join='<br />', context='html'}
       </sly>
     </dd>
