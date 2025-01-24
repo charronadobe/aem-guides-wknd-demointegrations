@@ -37,6 +37,8 @@
                         <filter><root>/apps</root></filter>
                         <filter><root>/apps/wknd</root></filter>
                         <filter><root>/apps/core-customized</root></filter>
+                        <filter><root>/apps/demo</root></filter>
+
 
                         <!-- Common overlay roots -->
                         <filter><root>/apps/sling</root></filter>

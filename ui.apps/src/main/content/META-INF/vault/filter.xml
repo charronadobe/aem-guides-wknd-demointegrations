@@ -6,4 +6,5 @@
     <filter root="/apps/msm/wknd_blueprint" mode="merge"/>
     <filter root="/apps/settings/wcm/designs/wknd"/>
     <filter root="/apps/core-customized"/>
+    <filter root="/apps/demo/clientlibs"/>
 </workspaceFilter>
