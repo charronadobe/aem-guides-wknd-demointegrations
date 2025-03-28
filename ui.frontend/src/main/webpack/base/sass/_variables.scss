@@ -26,6 +26,7 @@ $white: #ffffff;
 
 $yellow: #ffea00;
 $blue: #3d96f7;
+$lightblue: #94c7fe;
 $red: #ff0000;
 $green: #00520094;
 $pink: #ff0058;
@@ -43,10 +44,10 @@ $sobeys: #015535;
 $hyundai: #002c5f;
 
 //custom colour for brand lines
-$brand-accent: $tdgreen;
+$brand-accent: $blue;
 
 //$brand-primary: var(--brandPrimary, $yellow);
-$brand-primary: var(--brandPrimary, $tdgreen);
+$brand-primary: var(--brandPrimary, $lightblue);
 
 //== Layout
 $gutter-padding: 14px;
@@ -69,7 +70,7 @@ $text-color: var(--textColor, $black);
 $text-color-inverse: var(--textColorInverse, $gray-light);
 
 //$brand-secondary: var(--brandSecondary, $black);
-$brand-secondary: var(--brandSecondary, $tdgreen);
+$brand-secondary: var(--brandSecondary, $blue);
 
 $brand-third: var(--brandThird, $gray-light);
 

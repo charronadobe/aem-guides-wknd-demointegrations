@@ -29,10 +29,9 @@
     <sly data-sly-test="${fragment.description}">
       <p class="cmp-contentfragment__description">${fragment.description}</p>
     </sly>
-    <!-- begin testing code: **THIS IS WHERE YOU NEED TO START, THE CONFRAG PATH IS HERE... HOW DO YOU GRAB THE SUBPATH AND PROCESS IT?** -->
-    <!--/* <h1>properties.fragmentPath has the value ${fragment.id}</h1> */-->
-    <!-- <h1>fragment.element.size is ${fragment.elements.size}</h1> -->
-    <!-- end testing code -->
+    <!--/* begin testing code: **THIS IS WHERE YOU NEED TO START, THE CONFRAG PATH IS HERE... HOW DO YOU GRAB THE SUBPATH AND PROCESS IT?** */-->
+    <!--/* <h1>fragment.id has the value ${fragment.id}</h1> */-->
+    <!--/* end testing code */-->
     <sly
       data-sly-test.isParagraphMode="${fragment.elements.size == 1 && fragment.elements[0].isMultiLine && properties.displayMode == 'singleText'}"
     >
