@@ -55,6 +55,30 @@
                     <!-- skip sub package validation for now as some vendor packages like CIF apps will not pass -->
                     <skipSubPackageValidation>true</skipSubPackageValidation>
                     <embeddeds>
+                        <!-- Forms Core Components -->
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-af-apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-af-core</artifactId>
+                            <target>/apps/wknd-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-examples-apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/content/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-examples-content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/content/install</target>
+                        </embedded>
                         <!-- Veeva Connector -->
                         <embedded>
                             <groupId>com.adobe.acs.aemveeva</groupId>
