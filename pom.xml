@@ -60,8 +60,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2023.7.12874.20230726T072051Z-230702</aem.sdk.api>
+        <aem.forms.sdk.api>2023.10.25.00-231100</aem.forms.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.28.0</core.wcm.components.version>
+        <core.wcm.components.version>2.23.4</core.wcm.components.version>
+        <core.forms.components.version>3.0.104</core.forms.components.version>
+        <core.forms.components.af.version>3.0.104</core.forms.components.af.version>
         <uber.jar.version>6.5.17</uber.jar.version>
         <wknd-shared.version>3.1.0</wknd-shared.version>
         <wknd-shared.65.version>2.2.2</wknd-shared.65.version>
@@ -788,6 +791,48 @@ Bundle-DocURL:
                 <version>${core.wcm.components.version}</version>
             </dependency>
 
+            <!-- Forms Core Component Dependencies -->
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>core-forms-components-core</artifactId>
+                <version>${core.forms.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>core-forms-components-apps</artifactId>
+                <version>${core.forms.components.version}</version>
+                <type>zip</type>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>core-forms-components-af-core</artifactId>
+                <version>${core.forms.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>core-forms-components-af-apps</artifactId>
+                <version>${core.forms.components.version}</version>
+                <type>zip</type>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>core-forms-components-examples-apps</artifactId>
+                <type>zip</type>
+                <version>${core.forms.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>core-forms-components-examples-content</artifactId>
+                <type>zip</type>
+                <version>${core.forms.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>aem-forms-sdk-api</artifactId>
+                <version>${aem.forms.sdk.api}</version>
+            </dependency>
+            <!-- End of AEM Forms Core Component Dependencies -->
+            
             <!-- WKND Shared -->
             <dependency>
                 <groupId>com.adobe.aem.guides</groupId>
