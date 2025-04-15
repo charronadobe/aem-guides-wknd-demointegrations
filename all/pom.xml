@@ -342,6 +342,22 @@
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>
+        <!-- Forms Core Components -->
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-af-apps</artifactId>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-examples-apps</artifactId>
+            <type>zip</type>
+        </dependency>
+            <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-examples-content</artifactId>
+            <type>zip</type>
+        </dependency>
         <!-- Veeva Connector -->
         <dependency>
             <groupId>com.adobe.acs.aemveeva</groupId>
