@@ -62,7 +62,7 @@
         <aem.sdk.api>2023.7.12874.20230726T072051Z-230702</aem.sdk.api>
         <aem.forms.sdk.api>2023.10.25.00-231100</aem.forms.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.28.0</core.wcm.components.version>
+        <core.wcm.components.version>2.24.6</core.wcm.components.version>
         <core.forms.components.version>3.0.104</core.forms.components.version>
         <core.forms.components.af.version>3.0.104</core.forms.components.af.version>
         <uber.jar.version>6.5.17</uber.jar.version>
@@ -791,6 +791,26 @@ Bundle-DocURL:
                 <version>${core.wcm.components.version}</version>
             </dependency>
 
+            <!-- Core Dependencies for Forms Core Components -->
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.examples.ui.apps</artifactId>
+                <type>zip</type>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.examples.ui.content</artifactId>
+                <type>zip</type>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.examples.ui.config</artifactId>
+                <version>${core.wcm.components.version}</version>
+                <type>zip</type>
+            </dependency>
+ 
             <!-- Forms Core Component Dependencies -->
             <dependency>
                 <groupId>com.adobe.aem</groupId>
