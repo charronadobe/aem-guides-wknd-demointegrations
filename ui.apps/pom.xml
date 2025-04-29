@@ -148,7 +148,7 @@
             <version>1.2.4-1.4.0</version>
             <scope>provided</scope>
         </dependency>
-        <!-- For ACS Commons Java APIs -->
+        <!-- For ACS Commons Java APIs (for Marketo forms integration) -->
         <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-bundle</artifactId>

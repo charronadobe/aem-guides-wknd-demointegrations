@@ -409,7 +409,7 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/../ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
         </dependency>
-        <!-- ACS Commons -->
+        <!-- ACS Commons (used for Marketo Forms integration) -->
         <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-content</artifactId>
