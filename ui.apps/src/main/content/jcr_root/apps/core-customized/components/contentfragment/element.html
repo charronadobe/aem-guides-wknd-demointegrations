@@ -1,4 +1,3 @@
-ontent.length'CONTENT
 <!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   ~ Copyright 2019 Adobe
   ~
@@ -30,9 +29,9 @@ ontent.length'CONTENT
         >${element.value ? "true" : "false"}
       </sly>
       <!--/* Process Content Fragment element */-->
-      <sly data-sly-test="${element.dataType == 'content-fragment'}">
+      <!--/* <sly data-sly-test="${element.dataType == 'content-fragment'}">
         <h1>Type: ${element.dataType}</h1>
-      </sly>
+      </sly> */-->
       <!--/* End Process Content Fragment element */-->
       <sly data-sly-use.media="${'js/content.js' @content=element.value}" />
       <sly
