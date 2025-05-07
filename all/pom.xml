@@ -106,12 +106,12 @@
                             <target>/apps/wknd-vendor-packages/application/install</target>
                         </embedded>
                         <!-- Workfront Enhanced Connector -->
-                        <embedded>
+                        <!-- <embedded>
                             <groupId>digital.hoodoo</groupId>
                             <artifactId>workfront-tools.ui.apps</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-vendor-packages/application/install</target>
-                        </embedded>
+                        </embedded> -->
                         <!-- ACS Commons -->
                         <embedded>
                             <groupId>com.adobe.acs</groupId>
@@ -402,13 +402,13 @@
             <systemPath>${project.basedir}/../ui.apps/src/main/resources/aem-veeva-connector.all-1.0.0-SNAPSHOT.zip</systemPath>
         </dependency>
         <!-- Workfront Enhanced Connector -->
-        <dependency>
+        <!-- <dependency>
             <groupId>digital.hoodoo</groupId>
             <artifactId>workfront-tools.ui.apps</artifactId>
             <type>zip</type>
             <scope>system</scope>
             <systemPath>${project.basedir}/../ui.apps/src/main/resources/workfront-tools.ui.apps.zip</systemPath>
-        </dependency>
+        </dependency> -->
         <!-- ACS Commons (used for Marketo Forms integration) -->
         <dependency>
             <groupId>com.adobe.acs</groupId>
