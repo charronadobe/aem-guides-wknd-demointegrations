@@ -33,38 +33,18 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    background-color: #cd177d;
+    background-color: $gray-light;
     padding: 2em;
     padding-top: 3.5em;
-  }
-
-  .cmp-teaser .cmp-teaser__pretitle {
-    color: #ffffff;
-  }
-
-  .cmp-teaser .cmp-teaser__title {
-    color: #ffffff;
-  }
-
-  .cmp-teaser .cmp-teaser__title-link {
-    color: #ffffff;
   }
 
   .cmp-teaser__description {
     font-size: $font-size-small;
     align-self: bottom;
-    color: #ffffff;
     p {
       font-size: $font-size-small;
       text-align: left;
     }
-  }
-  .cmp-teaser .cmp-teaser__action-link {
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    -webkit-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
   }
 
   /* Mobile stack content */
