@@ -46,10 +46,10 @@ $hyundai: #002c5f;
 $roche: #0544ca;
 
 //custom colour for brand lines
-$brand-accent: $blue;
+$brand-accent: $abbottlight;
 
 //$brand-primary: var(--brandPrimary, $yellow);
-$brand-primary: var(--brandPrimary, $roche);
+$brand-primary: var(--brandPrimary, $abbott);
 
 //== Layout
 $gutter-padding: 14px;
@@ -72,7 +72,7 @@ $text-color: var(--textColor, $black);
 $text-color-inverse: var(--textColorInverse, $gray-light);
 
 //$brand-secondary: var(--brandSecondary, $black);
-$brand-secondary: var(--brandSecondary, $blue);
+$brand-secondary: var(--brandSecondary, $abbottlight);
 
 $brand-third: var(--brandThird, $gray-light);
 
