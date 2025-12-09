@@ -46,7 +46,7 @@ $hyundai: #002c5f;
 $roche: #0544ca;
 $bhsf: #31a849;
 $bhsflight: #b2e2bb;
-$bhsfdark: #3a533f;
+$bhsfdark: #4a6f51;
 
 //custom colour for brand lines
 $brand-accent: $bhsfdark;
@@ -75,7 +75,7 @@ $text-color: var(--textColor, $black);
 $text-color-inverse: var(--textColorInverse, $gray-light);
 
 //$brand-secondary: var(--brandSecondary, $black);
-$brand-secondary: var(--brandSecondary, $bhsflight);
+$brand-secondary: var(--brandSecondary, $bhsfdark);
 
 $brand-third: var(--brandThird, $gray-light);
 
@@ -87,7 +87,7 @@ $link-hover-color: $link-color;
 $link-hover-decoration: underline;
 
 $nav-link: var(--navLink, $black);
-$nav-link-inverse: var(--navLinkInverse, $gray-light);
+$nav-link-inverse: var(--navLinkInverse, $white);
 
 //== Grid
 $max_col: 12;
@@ -140,4 +140,4 @@ $list-item-height: var(--listItemHeight, 120px);
 $list-item-border: 5px solid $brand-third;
 
 $button-size: var(--buttonSize, 48px);
-$button-border-radius: var(--buttonBorderRadius, 0px);
+$button-border-radius: var(--buttonBorderRadius, 999px);
