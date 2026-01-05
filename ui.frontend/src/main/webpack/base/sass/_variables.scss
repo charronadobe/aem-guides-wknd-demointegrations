@@ -126,7 +126,7 @@ $font-weight-semi-bold: var(--fontWeightSemiBold, 400);
 $font-weight-bold: var(--fontWeightBold, 600);
 
 //=== Page Layout
-$header-height: var(--headerHeight, 0px); //default is 200px
+$header-height: var(--headerHeight, 200px); //default is 200px
 $header-mobile-height: var(--headerMobileHeight, 130px);
 $utility-nav-height: var(--utilityNavHeight, 25px);
 
