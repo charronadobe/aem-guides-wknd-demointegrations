@@ -50,7 +50,7 @@ describe("validate the Wknd authoring flow", () => {
     cy.AEMNavigatePageProperties(testPage.path);
     cy.get('coral-panel.is-selected input[name="./jcr:title"]').should(
       "have.value",
-      testPage.title + "-edited"
+      testPage.title + "-edited",
     );
   });
 
@@ -60,21 +60,23 @@ describe("validate the Wknd authoring flow", () => {
     cy.AEMNavigatePageEditor(testPage.path);
     // open the dialog
     cy.get(
-      'div[data-type="Editable"][data-path="' + testPage.path + '/jcr:content/root/container/*"]'
+      'div[data-type="Editable"][data-path="' + testPage.path + '/jcr:content/root/container/*"]',
     ).click();
     // clik on add
     cy.get(
-      'button[data-action="INSERT"][data-path="' + testPage.path + '/jcr:content/root/container/*"]'
+      'button[data-action="INSERT"][data-path="' +
+        testPage.path +
+        '/jcr:content/root/container/*"]',
     ).click();
     // select the hello world component
     cy.get('coral-list-item[value="/apps/wknd/components/helloworld"]').click();
     // verify component is in page
     cy.get('div[data-path="' + testPage.path + '/jcr:content/root/container/helloworld"]').should(
-      "exist"
+      "exist",
     );
     // verify component content in page
     cy.get(
-      'div[data-path="' + testPage.path + '/jcr:content/root/container/helloworld"] >span'
+      'div[data-path="' + testPage.path + '/jcr:content/root/container/helloworld"] >span',
     ).should("contain", "Hello World Component");
 
     // publish the page
